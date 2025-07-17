@@ -1,0 +1,29 @@
+ Library Management System (SQL Project)
+
+This project is a SQL-based Library Management System designed to efficiently manage a library's core operations, including book inventories, member information, and borrowing transactions. It involves three key relational tables: Books, Members, and BorrowingRecords, with proper foreign key constraints to ensure data integrity.
+
+Features:
+
+    1) Database Design: Structured schema with well-defined relations between books, members, and borrow records.
+
+    2) Sample Data: Populated tables with sample entries to simulate a working library environment.
+
+    3) Information Retrieval:
+
+        a) List of books borrowed by a specific member.
+
+        b) Identify members with overdue books.
+
+        c) Genre-wise book availability.
+
+        d) Most borrowed books and cross-genre borrowing activity.
+
+    4) Reporting & Analytics:
+
+        a) Monthly borrowing statistics.
+
+        b) Top active members.
+
+        c) Frequently borrowed authors.
+
+        d) Members who have never borrowed a book.
